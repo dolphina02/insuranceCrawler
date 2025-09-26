@@ -25,9 +25,10 @@ class ImprovedInsuranceCrawler:
         self.driver = None
         self.results = []
         
-        # 보험 카테고리 목록 (테스트용 - 2개만)
+        # 보험 카테고리 목록 (전체 9개)
         self.categories = [
-            '암보험', '간병/치매보험'
+            '종신보험', '정기보험', '질병보험', '암보험', 'CI보험', 
+            '상해보험', '어린이보험', '치아보험', '간병/치매보험'
         ]
     
     def setup_driver(self):
